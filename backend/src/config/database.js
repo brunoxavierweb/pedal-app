@@ -1,5 +1,4 @@
-const mongoose = require('mongoose') //mapeamento dos objetos que vão pro mongo e conexao com o mongo
-
-mongoose.Promise = global.Promise //advertencia
-
+const mongoose = require('mongoose')
+//advertencia
+mongoose.Promise = global.Promise
 module.exports = mongoose.connect('mongodb://localhost/todo')
