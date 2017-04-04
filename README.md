@@ -1,2 +1,2 @@
-# pedal-app
+# Pedal-app
 APIREST  - Node.js
